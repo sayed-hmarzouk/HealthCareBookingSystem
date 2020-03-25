@@ -1,0 +1,121 @@
+
+/* START OF TESTIMONIALS */
+.testimonials-container {
+    margin: 5% 0%;
+    padding: 5%;
+}
+
+.testimonials-container .header-info,
+.specialists-container .header-info,
+.news-container .header-info {
+    max-width: 600px;
+}
+
+.testimonials-container .patient .info {
+    background-color: #f9f9fd;
+    padding: 5%;
+    border-radius: 5px;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+.testimonials-container .image {
+    width: 102px;
+    height: 104px;
+    margin-bottom: -8%;
+    margin-left: 7%;
+}
+
+.testimonials-container .patient:hover .info {
+    background-color: #fff;
+    -webkit-box-shadow: -1px 0px 18px 0px rgba(231, 226, 226, 1);
+    -moz-box-shadow: -1px 0px 18px 0px rgba(231, 226, 226, 1);
+    box-shadow: -1px 0px 18px 0px rgba(231, 226, 226, 1);
+}
+
+.testimonials-container .patient h3 {
+    padding: 10% 5% 0% 5%;
+    color: #222;
+    font-family: ubuntu, sans-serif;
+    font-size: 18px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.testimonials-container .patient h5 {
+    font-family: "Roboto", sans-serif;
+    padding: 0% 5% 0% 5%;
+    color: #777;
+    text-transform: capitalize;
+    font-size: 14px !important;
+    font-weight: 400;
+}
+
+.testimonials-container .patient p {
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    padding: 5%;
+    margin: 0px 0px 16px;
+}
+
+.testimonials-container .appointment-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.testimonials-container .appointment-container .image {
+    position: relative;
+    background-image: url("../images/appointment/form.jpg");
+    width: 100%;
+    height: 612px;
+    margin-top: 5%;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.testimonials-container .appointment-container .overlay {
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-image: linear-gradient(
+        to top right,
+        rgba(21, 228, 253, 0.9),
+        rgba(36, 76, 253, 0.9)
+        );
+}
+
+.testimonials-container .appointment-container .overlay h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px !important;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+
+.sayings .appointment .form-group {
+    margin-bottom: 10px;
+}
+
+.testimonials-container .appointment-container .overlay input,
+.testimonials-container .appointment-container .overlay textarea {
+    font-family: "Ubuntu", sans-serif;
+    color: #222;
+    font-size: 18px !important;
+    font-weight: 500;
+    padding: 12px 20px;
+    width: 70%;
+    border: none;
+    text-decoration: none;
+    border:2px solid transparent;
+    border-radius: 5px;
+}
+
+/* END OF TESTIMONIALS */

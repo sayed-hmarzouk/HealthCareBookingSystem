@@ -1,0 +1,16 @@
+
+/* START OF FOOTER */
+.footer {
+    background-color: #f9f9fd;
+    padding: 5% 0%;
+    font-weight: bolder;
+}
+
+.footer li a {
+    color: #222222;
+}
+
+.footer li a i {
+    font-size: 30px !important;
+}
+/* END OF FOOTER */

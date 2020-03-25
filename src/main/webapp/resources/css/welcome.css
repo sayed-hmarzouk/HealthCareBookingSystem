@@ -1,0 +1,38 @@
+
+/*  START OF WELCOME */
+.welcome-container {
+    margin: 15% 0;
+}
+
+.welcome-container .text {
+    width: 100%;
+    height: 100%;
+    padding: 9%;
+}
+
+@media (max-width: 768px) {
+    .welcome-container .image {
+        margin-bottom: 15px;
+    }
+}
+
+.welcome-container .text h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 36px !important;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.welcome-container .text p {
+    font-family: "Roboto", sans-serif;
+    padding: 5% 0% 0%;
+    font-weight: 600;
+    margin: 0px 0px 16px;
+    color: #777;
+    opacity: 00.7;
+}
+
+.welcome-container a.template-btn {
+    color: #fff !important;
+}
+/*  END OF WELCOME */

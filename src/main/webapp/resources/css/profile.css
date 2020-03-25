@@ -1,0 +1,75 @@
+body{
+    background-color: #F9F9F9;
+}
+.row{
+    margin: 0px;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    margin-top: 5%;
+    color: #333;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: bolder;
+    /*letter-spacing: -.5px;*/
+}
+
+.login-container .login{
+    margin: 4% auto;
+    padding: 5%;
+    background-color: #fff;
+    text-align: center
+}
+
+.login-container .login .form-control {
+    /*    border:5px solid #D9DFE3;*/
+    /*border-radius: 50px;*/
+    margin: 0 auto;
+}
+
+.border-info {
+    border: 1px solid #D9DFE3 !important;
+    border-radius:15px;
+}
+
+.login-container h6,.login-container .error{
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    color: red;
+    font-weight: bolder;
+}
+
+.login-container .error{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.login-container .login .btnContact {
+    border: none;
+    padding: 0.9%;
+    background: #e6606e;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+.login-container .login .btnContact:hover{
+    background-color: #dc3545;
+}
+.login-container .login a.btnContact {
+    text-align: center;
+    display: inline-block;
+}
+.login-container .login button.btnContact {
+    background-color: #0079FB;
+}
+.login-container .login button.btnContact:hover{
+    background-color: #0069d9;
+}

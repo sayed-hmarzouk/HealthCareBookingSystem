@@ -1,0 +1,48 @@
+
+/* START OF SPECIALISTS */
+.specialists-container {
+    margin: 10% 0;
+    padding: 5% 0% 18%;
+    background-color: #f9f9fd;
+}
+
+@media (max-width: 768px) {
+    .specialists-container .doctor {
+        margin-bottom: 25px;
+    }
+}
+.specialists-container .doctor h6 {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px !important;
+    color: #777777;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15%;
+}
+
+.specialists-container .card-body {
+    padding: 0;
+}
+
+.specialists-container .doctor .info {
+    padding-top: 10%;
+    padding-bottom: 5px;
+    margin-top: -1px;
+}
+
+.specialists-container .card:hover .info,
+.specialists-container .doctor:hover .card-body h5,
+.specialists-container .doctor:hover .card-body h6 {
+    background: linear-gradient(to right, #3155f3, #44e1f3);
+    color: #fff;
+    font-weight: 500;
+}
+.specialists-container .doctor p {
+    padding-bottom: 5%;
+    margin-top: 5%;
+}
+
+.specialists-container .doctor h6 {
+    margin-bottom: 5%;
+}
+/* END OF SPECIALISTS */

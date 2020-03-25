@@ -1,0 +1,121 @@
+
+/* START OF DEPARTMENTS */
+
+.department-container {
+    padding: 5% 0% 15%;
+    background-color: #f9f9fd;
+}
+
+.department-container .header-info,
+.testimonials-container .header-info,
+.specialists-container .header-info,
+.news-container .header-info {
+    max-width: 450px;
+    margin: 0 auto 3%;
+    padding: 2%;
+    text-align: center;
+}
+
+.department-container .header-info h2,
+.testimonials-container .header-info h2,
+.specialists-container .header-info h2,
+.news-container .header-info h2 {
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 5%;
+    color: #222;
+    font-size: 36px !important;
+    font-weight: bolder;
+}
+
+.department-container .header-info p,
+.testimonials-container .header-info p,
+.specialists-container .header-info p,
+.news-container .header-info p {
+    font-family: "Ubuntu", sans-serif;
+    color: #777777;
+    margin: 0% 0% 8% 0%;
+}
+
+.department-container .department .image {
+    position: relative;
+}
+
+.department-container .department .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 7px 7px 0px 0px;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+
+.department-container .card:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.department-container .card,
+.specialists-container .card {
+    border: 0;
+    border-radius: 7px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.department-container .card:hover,
+.specialists-container .card:hover {
+    background-color: #fff;
+    -webkit-box-shadow: -1px 0px 18px 0px rgba(231, 226, 226, 1);
+    -moz-box-shadow: -1px 0px 18px 0px rgba(231, 226, 226, 1);
+    box-shadow: -1px 0px 18px 0px rgba(231, 226, 226, 1);
+}
+
+.department-container .department h5,
+.specialists-container h5 {
+    font-family: "Ubuntu", sans-serif;
+    color: #222222;
+    font-size: 18px !important;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.department-container .department p,
+.specialists-container .doctor h6,
+.specialists-container .doctor p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px !important;
+    color: #777;
+}
+
+.department-container .carousel-indicators {
+    bottom: -35%;
+}
+
+.department-container .carousel-indicators li {
+    background-color: #c6d0d4;
+    width: 15px;
+    height: 4px;
+}
+
+.department-container .carousel-indicators li.active {
+    background-color: #244cfd;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .department-container .carousel-indicators {
+        bottom: -15%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .department-container .carousel-indicators {
+        bottom: -5%;
+    }
+}
+/* END OF DEPARTMENTS */

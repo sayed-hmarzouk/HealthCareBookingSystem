@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* height: 10000px; */
+}
+
+/* START OF UPPER_NAVBAR */
+.upper-navbar {
+    background-color: #fbfbfb;
+    padding: 1%;
+    color: #777777;
+}
+
+.upper-navbar .list-unstyled {
+    margin: 0;
+}
+
+.upper-navbar,
+.bottom-navbar .navbar-light .navbar-nav .nav-link,
+.bottom-navbar-container,
+.bottom-navbar-container .bottom-navbar a.dropdown-item {
+    font-family: "roboto", sans-serif;
+    color: #777777;
+    font-size: 12px !important;
+    font-weight: 700;
+}
+
+.bottom-navbar .navbar-light .navbar-nav .nav-link,
+.bottom-navbar a.dropdown-item {
+    font-size: 15px !important;
+}
+
+.upper-navbar .left-side li,
+.upper-navbar .right-side li,
+.specialists-container li {
+    margin: 1% 2% 0.5% 0%;
+}
+
+.upper-navbar .left-side li i,
+.upper-navbar .right-side li i,
+.specialists-container li i,
+.footer li a i {
+    font-size: 18px !important;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+
+.upper-navbar .right-side li a,
+.specialists-container li a {
+    color: #777;
+}
+
+.upper-navbar .right-side li a:hover .fa-facebook-f,
+.specialists-container li a:hover .fa-facebook-f,
+.footer li a:hover .fa-facebook-f {
+    color: #4267b2;
+}
+
+.upper-navbar .right-side li a:hover .fa-linkedin-in,
+.specialists-container li a:hover .fa-linkedin-in,
+.footer li a:hover .fa-linkedin-in {
+    color: #007bb6;
+}
+
+.upper-navbar .right-side li a:hover .fa-twitter,
+.specialists-container li a:hover .fa-twitter,
+.footer li a:hover .fa-twitter {
+    color: #00aced;
+}
+
+.upper-navbar .right-side li a:hover .fa-instagram,
+.specialists-container li a:hover .fa-instagram,
+.footer li a:hover .fa-instagram {
+    color: #517fa4;
+}
+
+.upper-navbar .right-side li a:hover .fa-google-plus-g,
+.specialists-container li a:hover .fa-google-plus-g,
+.footer li a:hover .fa-google-plus-g {
+    color: #dd4b39;
+}
+/* END OF UPPER_NAVBAR */

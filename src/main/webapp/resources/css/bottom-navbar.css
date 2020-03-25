@@ -1,0 +1,82 @@
+/* START OF BOTTOM_NAVBAR */
+.bottom-navbar-container {
+    font-family: "roboto", sans-serif;
+    background-image: url("../images/uppernavbar/upnav1.jpg");
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bottom-navbar-container .bottom-navbar {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 9999;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+
+.bottom-navbar-container .bottom-navbar .navbar-light .navbar-nav .active {
+    color: #222222;
+}
+
+.bottom-navbar-container .bottom-navbar .navbar-light .navbar-nav a:hover {
+    color: #222222;
+    cursor: pointer;
+}
+
+.bottom-navbar-container .navbar-box-container {
+    padding: 15% 0%;
+}
+
+.bottom-navbar-container .navbar-box-container .navbar-box {
+    max-width: 85%;
+}
+
+.bottom-navbar-container .navbar-box-container .navbar-box h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0px 0px 8px;
+    color: #222222;
+}
+
+.bottom-navbar-container .navbar-box-container .navbar-box p {
+    font-family: "Roboto", sans-serif;
+    padding: 5% 0% 0%;
+    font-weight: 600;
+    margin: 0px 0px 16px;
+    color: #777;
+    letter-spacing: 1px;
+}
+
+.bottom-navbar-container .navbar-box-container .navbar-box a.template-btn,
+.welcome-container a.template-btn,
+.testimonials-container .appointment-container .overlay button.template-btn {
+    font-family: "Roboto", sans-serif;
+    padding: 12px 30px !important;
+    background: linear-gradient(to right, #244cfd, #15e4fd);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    border: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.bottom-navbar-container .navbar-box-container .navbar-box a.template-btn:hover,
+.welcome-container a.template-btn:hover,
+.testimonials-container .appointment-container .overlay button.template-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #002fff, #00e5ff);
+}
+/* END OF BOTTOM_NAVBAR */

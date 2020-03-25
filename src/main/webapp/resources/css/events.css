@@ -1,0 +1,77 @@
+/* START OF OUR EVENTS */
+.news-container {
+    margin-top: 10%;
+    padding: 5% 0% 18%;
+}
+
+.news-container .card {
+    border: none;
+}
+
+.news-container .card .card-body {
+    padding: 0;
+}
+
+.news-container span {
+    color: #fff;
+    background: #244cfd;
+    width: 45%;
+    padding: 3% 2%;
+    margin: -8% 7%;
+    text-align: center;
+}
+
+.news-container .news a {
+    text-decoration: none;
+}
+
+.news-container .news p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    padding-top: 8%;
+}
+
+.news-container .news h3 {
+    padding-top: 12%;
+}
+
+.news-container .news h3 a {
+    font-family: "Ubuntu", sans-serif;
+    color: #222;
+    font-size: 18px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.news-container .news .card:hover h3 a {
+    color: #2351fd;
+    cursor: pointer;
+}
+
+.news-container .news .footer {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.news-container .news .footer:hover {
+    color: #2351fd;
+}
+
+.news-container .news .footer i {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+@media (max-width: 991.98px) {
+    .news-container .news {
+        margin-bottom: 25px;
+    }
+}
+/* END OF OUR EVENTS */

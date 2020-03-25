@@ -1,0 +1,85 @@
+body{
+    background-color: #3B3B3B;
+}
+.login.col-10{
+    margin: 5% auto;
+    padding: 2% 5%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+h3{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+p{
+    width: 100%;
+    /*text-align: left;*/
+}
+.error{
+    font-family: "Roboto", sans-serif;
+    color: red;
+    font-weight: bolder;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: #fff;
+}
+.login-container .login .form-control{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.login-container .login .form-control input{
+    background-color: #E9ECEF;
+}
+.login-container .login .btnContact {
+    width: 25%;
+}
+
+.login-container .login textarea {
+    overflow:hidden;
+}
+.login-container .login .btn-outline-danger,
+.login-container .login .btn-outline-success,
+.login-container .login .btn-outline-secondary,
+.btn-primary.primCustom
+{
+    width: 30%/*200px*/;
+    margin: 5px;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+.login-container .login .fa-check,
+.login-container .login .fa-sign-out-alt,
+.login-container .login .fa-trash-alt,
+.login-container .login .btn-outline-secondary
+{
+    font-size: 16px;
+}
+.login-container .login .btn-primary
+{
+    width: 60%;
+}
+.btn-primary.primCustom {
+    color: #007bff;
+    background-color: #fff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.login-container .login span:last-of-type{
+    margin:15%;
+}
